@@ -1,0 +1,34 @@
+SELECT *
+FROM EmployeeDemographics
+
+SELECT FirstName , LastName
+FROM EmployeeDemographics
+
+SELECT *
+FROM EmployeeSalary
+
+SELECT MAX(Salary) AS Maximum_Salary
+FROM EmployeeSalary
+
+SELECT MIN(Salary) AS Minimum_Salary
+FROM EmployeeSalary
+
+SELECT AVG(Salary) AS Average_Salary
+FROM EmployeeSalary
+
+SELECT Top 5 *
+FROM EmployeeSalary
+
+
+SELECT DISTINCT(EmployeeID)
+FROM EmployeeSalary
+
+
+
+
+
+
+-- if I want to use it through master
+--SELECT *
+--FROM SQL_First_Database.dbo.EmployeeSalary
+
