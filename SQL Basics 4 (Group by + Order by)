@@ -1,0 +1,21 @@
+SELECT DISTINCT(Gender) , COUNT(Gender) AS total_employee
+FROM EmployeeDemographics
+GROUP BY Gender
+
+SELECT *
+FROM EmployeeDemographics
+
+SELECT DISTINCT(Gender) , Age , COUNT(Gender) AS total_employee
+FROM EmployeeDemographics
+GROUP BY Gender , Age
+
+SELECT DISTINCT(Gender) , COUNT(Gender) AS Count_Gender
+FROM EmployeeDemographics
+WHERE Age > 31
+GROUP BY Gender
+ORDER BY Count_Gender DESC
+
+SELECT *
+FROM EmployeeDemographics
+ORDER BY Age
+
